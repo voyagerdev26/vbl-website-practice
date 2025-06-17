@@ -1,0 +1,279 @@
+
+
+/* header section  */
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+.nav-logo{
+
+    
+    
+}
+.navbar-brand >img{
+    width: 75px;
+    height:75px;
+}
+
+.mobile-menu{
+    margin-top:2.0em;
+}
+
+.mobile-menu > a{
+    text-decoration: none;
+    padding-right: 1em;
+    padding-left: 1em;
+    font-size: 1em;
+    font-weight: bold;
+    color:rgb(3, 3, 66);
+    font-family: "Roboto", sans-serif;
+}
+.header-img >img{
+    width:100%;
+    height :auto;
+
+}
+
+/* our reach section  */
+
+.vision-and-reach{
+    display:grid;
+    grid-template-columns: auto;
+    width:80%;
+    margin:auto;
+}
+.vision-heading{
+    /* width:80%; */
+    /* margin:auto  */
+    /* border:1px solid black; */
+    box-shadow: 0px 2px 20px 5px #c7c6c6;
+    border-radius: 15px;
+    margin-top:2rem ;
+    margin-bottom:2rem ;
+}
+.vision-heading > h1{
+    font-size:2.5em;
+    font-family:"Montserrat", sans-serif;
+    color:rgb(3, 3, 73);
+    margin-bottom: 0.4em;
+    padding-left:0.5em;
+}
+.vision-heading > h2{
+    font-size:1.5em;
+    font-family: "Montserrat", sans-serif;
+    margin-top: 0.2em;
+    padding-left:0.8em;
+    
+}
+
+.services-and-footprint{
+    display:grid;
+    grid-template-columns: 35% 65%;
+    
+    /* width:80%; */
+    /* margin:auto; */
+    
+}
+.footprint > img{
+    width:100%;
+}
+
+
+.services > h2{
+    font-size: 2.5em;
+    color:rgb(5, 5, 113);
+    font-family:"Montserrat", sans-serif;
+    margin-top: 0.4em;
+    margin-bottom: 0.4em;
+}
+.services > p{
+    font-size: 1.4em;
+    font-weight: 100;
+    font-family:"Montserrat", sans-serif;
+    /* margin-top: 0.4em;
+    margin-bottom: 0.4em; */
+}
+.services >p >span{
+    font-size:2em;
+    color:rgb(3, 3, 81);
+}
+.services > div{
+    display:flex;
+    gap:1rem;
+}
+.services > div >div{
+    display:flex;
+    flex-direction: column;
+}
+.services >div >div>span{
+    font-size:2em;
+    color:rgb(3, 3, 81);
+    font-family:"Montserrat", sans-serif;
+}
+.services >div >div >div{
+    font-size:1.4em;
+    font-weight: 100;
+    font-family:"Montserrat", sans-serif;
+    
+}
+.services>div>img{
+    width:20%;
+}
+
+
+/* video section  */
+
+.main-video{
+    position:relative;
+    
+}
+.esg-video{
+    /* position:absolute;
+    top:0;
+    left:0;
+    right:0; */
+    width:100%;
+    height:70%;
+    
+    margin:auto;
+    /* object-fit: cover; */
+    /* overflow:hidden; */
+}
+.main-video-outerdiv{
+    position:absolute;
+    top:1%;
+    left:3%;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:50%;
+    height:70%;
+    margin:auto;
+    
+    text-align: center;
+}
+.main-video-outerdiv h2{
+    font-size:2.5em;
+    color:white;
+    font-family:"Montserrat", sans-serif;
+}
+.main-video-innerdiv p{
+    font-family:"Montserrat", sans-serif;
+    color:white;
+}
+.main-video-innerdiv a{
+    font-family:"Montserrat", sans-serif;
+    border:1px solid white;
+    text-decoration:none;
+    font-weight: bold;
+    color:white;
+
+}
+/* .main-video-innerdiv a img{
+    width:
+} */
+
+
+
+/* investor relations section  */
+
+.ir-outerdiv{
+    display:grid;
+    grid-template-columns: auto;
+    width:80%;
+    margin:auto;
+    /* gap:1rem; */
+}
+.ir-innerdiv{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:1rem;
+}
+.ir-outerdiv >h2{
+    font-size: 2.5em;
+    color:rgb(5, 5, 113);
+    font-family:"Montserrat", sans-serif;
+    margin-bottom:1.5em;
+}
+
+.ir-innerdiv >div > img{
+    width:100%;
+    height:auto;
+}
+.ir-innerdiv >div > h3{
+    
+    font-family:"Montserrat", sans-serif;
+}
+
+
+
+
+
+/* TVC section  */
+
+.tvc-outerdiv{
+    display:grid;
+    grid-template-columns: auto;
+    width:80%;
+    margin:auto;
+    gap:2.5rem;
+}
+.tvc-innerdiv{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    gap:1rem;
+}
+.tvc-outerdiv >h2{
+    font-size: 2.5em;
+    color:rgb(5, 5, 113);
+    font-family:"Montserrat", sans-serif;
+    /* margin-bottom:1.5em; */
+}
+
+.tvc-innerdiv >div > img{
+    width:100%;
+    height:auto;
+}
+.-innerdiv >div > h3{
+    
+    font-family:"Montserrat", sans-serif;
+}
+
+
+.arrow-div{
+    display:flex;
+    justify-content: center;
+    gap:0.5rem;
+}
+.arrow-div > span{
+    /* text-decoration: none; */
+    border:1px solid black;
+    background-color: rgb(3, 3, 80);
+    border-radius: 100px;
+    padding:0.8em;
+}
+.fa-arrow-left, .fa-arrow-right{
+    color:white;
+}
+
+
+
+
+/* footer-section  */
+.whole-footer{
+    width:80%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: auto;
+}
+
+.upper-footer{
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+.bottom-footer{
+    display:flex;
+    justify-content: space-between;
+}
