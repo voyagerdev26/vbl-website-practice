@@ -250,7 +250,7 @@
     /* text-decoration: none; */
     border:1px solid black;
     background-color: rgb(3, 3, 80);
-    border-radius: 100px;
+    border-radius: 50%;
     padding:0.8em;
 }
 .fa-arrow-left, .fa-arrow-right{
